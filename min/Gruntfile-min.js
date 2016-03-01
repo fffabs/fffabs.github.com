@@ -1,1 +1,0 @@
-module.exports=function(s){s.initConfig({sass:{dist:{options:{style:"expanded"},files:{"css/skeleton.css":"scss/skeleton.scss"}}},watch:{options:{livereload:!1},styles:{files:["scss/**/*.scss"],tasks:["sass"],options:{nospawn:!0}}}}),s.loadNpmTasks("grunt-contrib-sass"),s.loadNpmTasks("grunt-contrib-watch"),s.registerTask("default",["sass","watch"])};
